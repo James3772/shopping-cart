@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>   
+<head>  
+<meta name="viewport" content="width:50px", initial-scale=1"> 
+<title> Login Page </title>
+</head>
+<div align="center"><h2>
+<style>   
+Body {  
+   
+  background-color: beige;
+}
+button {
+background-color: #4CAF50; 
+width: 10%; 
+padding: 5px;
+margin: 5px 0px;
+ border: 2px solid green;
+cursor: pointer; 
+}
+input[type=checkbox]{
+cursor: pointer;
+width: 5%;
+padding: 15px 25px;  
+}
+input[type=submit] {
+cursor: pointer;
+background-color: #ff1493;
+}
+form {    
+        width: 50%;
+        height: 50%; 
+ }   
+input[type=text], input[type=password] {   
+width: 40%;   
+        margin: 8px 0;  
+        padding: 15px 25px;   
+        display: inline-block;
+        border: 2px solid beige;   
+        box-sizing: border-box;   
+    }  
+    button:hover {   
+        opacity: 0.7;
+    }   
+ .container {   
+           padding: 100px;
+        background-color: azure;  
+    }   
+</style>   
+</style>
+  
+  
+<body>    
+    <center><b><font color="#8b0000"size="5"><h1> Login To Shopping Cart </h1> </center>   
+    <form>  
+  <div class="container">   
+<font color="#030303"size="4"><label>Username:</label>  
+<input type="text" placeholder="Enter Username" name="username" required><br><br>  
+<label>Password:</label>
+<input type="password" placeholder="Enter Password" name="password" required><br><br>
+Choose User: <select id="user"name="user"style="height:35px"required/>
+<option value="Admin">Admin</option>
+<option value="Customer">Customer</option>
+<select><br><br/>
+<input type="checkbox"id="terms"name="terms"value="terms"required/>
+<label>Remember Me</label></b><br><br>
+</form>
+<form action="customerdashboard.html"method="post"target="_self">
+<input type="submit"value="Login"style="height:45px"><br><br><br><br>
+</form> 
+</div>     
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+ <meta charset="utf-8" />
+<meta name="viewport" content="width:50px", initial-scale=1">
+<title>shopping cart</title>
+</head>
+<style>
+input[type=checkbox]{
+cursor: pointer;
+width: 5%;
+padding: 15px 25px;  
+}
+input[type=submit] {
+cursor: pointer;
+background-color: #ff1493;
+}
+input[type=text], input[type=password],input[type=email] {   
+width: 30%;     
+        padding: 15px 25px;   
+        display: inline-block;
+        border: 3px solid beige;   
+        box-sizing: border-box;
+}
+input[type=tel]{
+width: 25%;
+ border: 3px solid beige;   
+        box-sizing: border-box;
+}
+form { 
+        width: 50%;
+        height: 25%;
+    }   
+.container {   
+        padding: 0.1px;   
+        background-color: azure;  
+    }   
+</style>
+<body  bgcolor="beige">
+</head>
+<div align="center"><h1>
+<body>
+<center><b><font color="#8b0000"size="6">Welcome Admin</h1>
+<form>  
+  <div class="container">
+<form action=""method="">
+<font color="#030303"size="4"><label>First Name:</label><br>
+<input type="text"id="text"name="First name"placeholder="Your first name"class="form-control"style="height:35px"required autofocus/><br><br/>
+<label>Last Name:</label><br>
+<input type="text"name="last name"placeholder="Your last name"style="height:35px"required/><br><br/>
+Choose Country: <select id="country"name="country"style="height:35px"required/>
+<option value="Kenya">Kenya</option>
+<option value="Tanzania">Tanzania</option>
+<option value= "Uganda">Uganda</option>
+<select><br><br/>
+<label>Tel No.:</label><br><select id="code"name="code"style="height:35px"required/>
+<option value="Kenya">+254</option>
+<option value="Tanzania">+255</option>
+<option value= "Uganda">+256</option>
+<select>
+<input type="tel"name="ttel no."placeholder="712345678"pattern="[0-9]{9}"style="height:35px"required/><br><br/>
+<label>Username:</label><br>
+<input type="text"name="username"placeholder="Your username"style="height:35px"required/><br><br/>
+<label>Email:</label><br>
+<input type="email"id="email"name="email"placeholder="example@gmail.com"style="height:35px"size="25"required/><br><br/>
+<label>Password:</label><br>
+<input type="password"id="password"name="password"placeholder="Your password"style="height:35px"required><br><br/>
+<label>Confirm Password:</label><br>
+<input type="password"id="confirm password"name="confirm password"placeholder="Confirm your password"style="height:35px"required><br/>
+<input type="checkbox"id="terms"name="terms"value="terms"required/></b>
+</form>
+</form>
+<form action="admindashboard.html"method="post"target="_self">
+<input type="submit"value="Sign Up"style="height:45px"class="btn btn-primary w-100">
+</form>
+Already have an account?<a href="login.html"><font color="#0000ff">Login</a><br><br>
+</form>
+</body>
+    </html>
